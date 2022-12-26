@@ -1,0 +1,51 @@
+[
+    {
+    "id":1,
+    "location":"taipei",
+    "name":"KAREN Bar＠西門紅樓",
+    "number":"1",
+    "timec":"週一~四,日:下午7:30 - 上午1:30 , 週五~六:下午7:30 - 上午2:30",
+    "address":"萬華區成都路10巷63號",
+    "latitude":"25.041991",
+    "longtitue":"121.506105",
+    "introduction":"西門男同志酒吧此店位於西門紅樓，由女店長（karen小姐）所經營的GayBar。在店內時髦的空間裡小酌，或是在露天座位邊喝酒邊感受微涼晚風都非常推薦~"
+
+    },
+
+
+    {
+        "id":2,
+        "location":"taipei",
+        "name":"Hero Bar, Taipei",
+        "number":"2",
+        "timec":"週一~四,日:下午8:00 - 上午2:00 , 週五~六:下午8:00 - 上午4:00",
+        "address":"108台北市萬華區昆明街15-2號2樓",
+        "latitude":"25.04647",
+        "longtitue":"121.50593",
+        "introduction":"Hero bar 坐落於西門町徒步區週邊，各式經典調酒，帶給你獨特Hero的新鮮感。"
+    
+    },
+
+{
+    "id":3,
+    "location":"taipei",
+    "name":"Hanes Singing Bar",
+    "number":"3",
+    "timec":"週一~四,日:下午10:00 - 上午4:00 , 週五~六:下午10:00 - 上午5:00",
+    "address":"B1, No. 15號林森北路138巷中山區台北市10491",
+    "latitude":"25.05169",
+    "longtitue":"121.52482",
+    "introduction":"最低消費:每位400元 ，可全額折抵當日酒類消費. 提供各類洋酒、啤酒、調酒. 平時營業為卡拉OK歡唱. 不定期舉辦各類型活動."
+},
+
+{
+    "id":4,
+    "location":"taipei",
+    "name":"G-Paradise",
+    "number":"4",
+    "timec":"週一~日:下午6:00 - 上午2:00 ",
+    "address":"108台北市萬華區成都路10巷47號",
+    "latitude":"25.04204",
+    "longtitue":"121.50635",
+    "introduction":"位於1F，店內有獨特的日式調酒和600元暢飲系列內有許多品項的調酒All You Can Drink！"
+}]
