@@ -149,7 +149,7 @@
     var content="<table>";
         $.getJSON(jsonUrl, function(data) {
             for (i=0;i<=3;i++) {
-            var element="<tr><td width="+"30%"+"><img width="+"100%"+" src=gaybar/"+i+".jpg"+"></a></td><td><h3>"+data[i].name+"</h3><p>營業時間："+data[i].timec+"</p><p>介紹：<a ="+"介紹:"+">"+data[i].introduction+"</a><p>地址："+data[i].address+"</p><p></br></p></td></tr>";
+            var element="<tr><td width="+"15%"+"><img width="+"100%"+" src=gaybar/"+i+".jpg"+"></a></td><td><h3>"+data[i].name+"</h3><p>營業時間："+data[i].timec+"</p><p>介紹：<a ="+"介紹:"+">"+data[i].introduction+"</a><p>地址："+data[i].address+"</p><p></br></p></td></tr>";
             content=content.concat(element);
             }
             content=content.concat("</table>");
@@ -163,7 +163,7 @@
             for (i=0;i<=3;i++) {
                 if(data[i].location=="keelung")
                 {
-                element="<tr><td width="+"30%"+"><img width="+"100%"+" src=gaybar/"+i+".jpg"+"></a></td><td><h3>"+data[i].name+"</h3><p>營業時間："+data[i].timec+"</p><p>介紹：<a ="+"介紹:"+">"+data[i].introduction+"</a><p>地址："+data[i].address+"</p><p></br></p></td></tr>";
+                element="<tr><td width="+"15%"+"><img width="+"100%"+" src=gaybar/"+i+".jpg"+"></a></td><td><h3>"+data[i].name+"</h3><p>營業時間："+data[i].timec+"</p><p>介紹：<a ="+"介紹:"+">"+data[i].introduction+"</a><p>地址："+data[i].address+"</p><p></br></p></td></tr>";
                     content=content.concat(element);
                 }
             }
@@ -178,7 +178,7 @@
             for (i=0;i<=3;i++) {
                 if(data[i].location=="taipei")
                 {
-                element="<tr><td width="+"30%"+"><img width="+"100%"+" src=gaybar/"+i+".jpg"+"></a></td><td><h3>"+data[i].name+"</h3><p>營業時間："+data[i].time+"</p><p>電話：<a ="+"介紹:"+">"+data[i].introduct+"</a><p>地址："+data[i].address+"</p><p></br></p></td></tr>";
+                element="<tr><td width="+"15%"+"><img width="+"100%"+" src=gaybar/"+i+".jpg"+"></a></td><td><h3>"+data[i].name+"</h3><p>營業時間："+data[i].time+"</p><p>電話：<a ="+"介紹:"+">"+data[i].introduct+"</a><p>地址："+data[i].address+"</p><p></br></p></td></tr>";
                     content=content.concat(element);
                 }
             }
@@ -193,7 +193,7 @@
             for (i=0;i<=3;i++) {
                 if(data[i].location=="ntaipei")
                 {
-                element="<tr><td width="+"30%"+"><img width="+"100%"+" src=gaybar/"+i+".jpg"+"></a></td><td><h3>"+data[i].name+"</h3><p>營業時間："+data[i].time+"</p><p>介紹：<a ="+""+">"+data[i].introduct+"</a><p>地址："+data[i].address+"</p><p></br></p></td></tr>";
+                element="<tr><td width="+"15%"+"><img width="+"100%"+" src=gaybar/"+i+".jpg"+"></a></td><td><h3>"+data[i].name+"</h3><p>營業時間："+data[i].time+"</p><p>介紹：<a ="+""+">"+data[i].introduct+"</a><p>地址："+data[i].address+"</p><p></br></p></td></tr>";
                     content=content.concat(element);
                 }
             }
@@ -206,6 +206,7 @@
 </div>>
 
 
+<!-- info section -->
     <section class="info_section">
       <div class="container ">
         <div class="row custom_border-btm mb-3 pb-4">
@@ -243,7 +244,7 @@
               passages of Lorem Ipsum available, but the majority have
             </p> -->
             <p>
-              (+886) 0976980720
+              (+886) 09--------
             </p>
             <p>
               johnpang2001@gmail.com
@@ -262,7 +263,7 @@
                 <button type="submit">
                   Subscribe
                 </button>
-              </div> 
+              </div> -->
             </form>
           </div>
         </div>
@@ -285,9 +286,7 @@
         </div>
       </div>
     </section>
-
-
-  
+    <!-- endsss info section -->
 
     <script type="text/javascript" src="js/jquery-3.4.1.min.js"></script>
     <script type="text/javascript" src="js/bootstrap.js"></script>
