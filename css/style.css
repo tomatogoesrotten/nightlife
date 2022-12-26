@@ -416,6 +416,22 @@ a:focus {
 	background-size: cover;
 }
 
+.class_section .class_img-box.box-img-calendar1 {
+	background: linear-gradient(0deg,
+			rgba(54, 54, 54, 0.5),
+			rgba(54, 54, 54, 0.8)),
+		url(../images/calendar.jpg);
+	background-size: cover;
+}
+
+.class_section .class_img-box.box-img-calendar1:hover {
+	background: linear-gradient(0deg,
+			rgba(230, 56, 60, 0.8),
+			rgba(230, 56, 60, 0.8)),
+		url(../images/calendar.jpg );
+	background-size: cover;
+}
+
 
 .class_section .class_img-box a,
 .class_section .class_img-box a:hover {
