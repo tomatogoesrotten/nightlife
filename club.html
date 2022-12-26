@@ -151,7 +151,7 @@
     var content="<table>";
         $.getJSON(jsonUrl, function(data) {
             for (i=0;i<=5;i++) {
-            var element="<tr><td width="+"30%"+"><a href="+"clubf/"+i+".jpg"+" target="+"_blank"+"><img width="+"100%"+" src=club/"+i+".jpg"+"></a></td><td><h3>"+data[i].name+"</h3><p>營業時間："+data[i].time+"</p><p>地址："+data[i].address+"</p><p>簡介：</br>"+data[i].introduction+"</p><p></br></p></td></tr>";
+            var element="<tr><td width="+"15%"+"><a href="+"clubf/"+i+".jpg"+" target="+"_blank"+"><img width="+"100%"+" src=club/"+i+".jpg"+"></a></td><td><h3>"+data[i].name+"</h3><p>營業時間："+data[i].time+"</p><p>地址："+data[i].address+"</p><p>簡介：</br>"+data[i].introduction+"</p><p></br></p></td></tr>";
             content=content.concat(element);
             }
             content=content.concat("</table>");
